@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
 
         var getplugin = function(){
 
-            // $("#modal-sucess").fancybox({}).trigger('click'); 
+            $("#modal-sucess").fancybox({}).trigger('click'); 
 
 
 
