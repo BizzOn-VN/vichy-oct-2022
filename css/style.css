@@ -377,3 +377,36 @@ p.error{
 		margin-bottom: 20px;
 	}
 }
+
+@media screen and (min-width: 1400px){
+	.main-page .md-left-page .md-title p{
+		font-size: 18px;
+	}
+	.main-page .md-left-page .md-title h4{
+		font-size: 35px;
+	}
+	.main-page .md-left-page .main-content .content p{
+		font-size: 10px;
+	}
+	.main-page .md-left-page .md-ft p{
+		font-size: 15px;
+	}
+	.main-page .md-left-page .md-ft .md-img img{
+		max-width: 250px;
+	}
+	.main-page .md-right-page form h6{
+		font-size: 25px;
+	}
+	.main-page .md-right-page form p{
+		font-size: 20px;
+	}
+	.main-page .md-right-page form label{
+		font-size: 15px;
+	}
+	.main-page .md-right-page form a{
+		font-size: 15px;
+	}
+	.main-page .md-right-page form input[type="button"]{
+		font-size: 15px;
+	}
+}
