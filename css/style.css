@@ -1,0 +1,379 @@
+
+@font-face {
+  font-family: "ElleFutura-Medium";
+  src: url(../fonts/ElleFutura-Medium/ElleFutura-Medium.woff2) format("woff2"), 
+  url(../fonts/ElleFutura-Medium/ElleFutura-Medium.eot) format("eot"), 
+  url(../fonts/ElleFutura-Medium/ElleFutura-Medium.ttf) format("ttf"), 
+  url(../fonts/ElleFutura-Medium/ElleFutura-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "ElleFutura-Bold";
+  src: url(../fonts/ElleFutura-Bold/ElleFutura-Bold.woff2) format("woff2"), 
+  url(../fonts/ElleFutura-Bold/ElleFutura-Bold.eot) format("eot"), 
+  url(../fonts/ElleFutura-Bold/ElleFutura-Bold.ttf) format("ttf"), 
+  url(../fonts/ElleFutura-Bold/ElleFutura-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "SFUFuturaHeavy";
+  src: url(../fonts/SFUFuturaHeavy/SFUFuturaHeavy.woff2) format("woff2"), 
+  url(../fonts/SFUFuturaHeavy/SFUFuturaHeavy.eot) format("eot"), 
+  url(../fonts/SFUFuturaHeavy/SFUFuturaHeavy.ttf) format("ttf"), 
+  url(../fonts/SFUFuturaHeavy/SFUFuturaHeavy.woff) format("woff");
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+
+body{
+	font-family: "ElleFutura-Medium";
+}
+
+
+.header{
+	position: relative;
+    background: #FFF;
+}
+.header .logo{
+	width: 18%;
+	display: table;
+	margin: 0 auto;
+	padding: 19px 0px;
+}
+.header .logo img{
+	width: 100%;
+}
+
+.main-header {
+	position: relative;
+	font-family: "SVN-GothamBold";
+	font-weight: 700;
+}
+
+.md-desktop{
+	display: block;
+}
+.md-mobile{
+	display: none;
+}
+
+.font-bold{
+	font-family: "ElleFutura-Bold";
+}
+
+.main-page .md-left-page{
+	float: left;
+	width: 50%;
+	position: relative;
+}
+.main-page .md-right-page{
+	float: left;
+	width: 50%;
+}
+.main-page{
+	padding: 40px 0px;
+}
+
+.main-page .md-left-page .main-content .content h6{
+	font-size: 20px;
+	font-family: "ElleFutura-Bold";
+	position: relative;
+	display: inline-block;
+	padding: 0px 8px;
+	float: left;
+	margin-right: 10px;
+}
+.main-page .md-left-page .main-content .content p span{
+	display: block;
+}
+.main-page .md-left-page .main-content .content p{
+	float: left;
+	margin-top: -3px;
+	line-height: 1.2;
+	font-size: calc(2px + 0.5vw);
+}
+.main-page .md-left-page .main-content .content .text-1{
+	margin-bottom: 25px;
+}
+.main-page .md-left-page .main-content .content .text-2 h6{
+	padding: 0px 6px;
+}
+.main-page .md-left-page .main-content .content .text-3 h6{
+	padding: 0px 15px;
+}
+.main-page .md-left-page .main-content .content h6:before{
+	content: "";
+	width: 5.25px;
+	height: 33px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+	background: url(../images/ico-before.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main-page .md-left-page .main-content .content h6:after{
+	content: "";
+	width: 5.25px;
+	height: 33px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: block;
+	background: url(../images/ico-after.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main-page .md-left-page .md-title h4{
+	font-family: "ElleFutura-Bold";	
+	font-size: calc(7px + 2vw);
+	margin: 0px 0px 30px;
+}
+.main-page .md-left-page .md-title p{
+	font-size: calc(2px + 1vw);
+	margin-bottom: 3px;
+}
+
+.main-page .md-left-page .main-content{
+	width: 37%;
+	float: left;
+}
+.main-page .md-left-page .main-img{
+	width: 63%;
+	float: left;
+}
+.main-page .md-left-page .main-img img{
+	width: 100%;
+}
+.main-page .md-left-page .md-ft{
+	position: absolute;
+	left: 0px;
+	bottom: 10%;
+	width: 100%;
+}
+.main-page .md-left-page .md-ft .md-img{
+	width: 50%;
+	float: left;
+	margin-right: 10%;
+}
+.main-page .md-left-page .md-ft .md-img img{
+	width: 90%;
+}
+.main-page .md-left-page .md-ft p{
+	float: left;
+	font-size: calc(2px + 0.8vw);
+	line-height: 1.3;
+}
+
+.main-page .md-right-page form{
+	width: 80%;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+.main-page .md-right-page form h6{
+	font-size: calc(3px + 1.4vw);
+}
+.main-page .md-right-page form p{
+	font-size:calc(5px + 0.9vw);
+	margin-bottom: 10px;
+}
+.main-page .md-right-page form label{
+	width: 100%;
+	text-align: left;
+}
+.main-page .md-right-page form .md-row .md-col-1{
+	width: 42%;
+	margin-right: 3%;
+	float: left;
+}
+.main-page .md-right-page form .md-row .md-col-2{
+	width: 55%;
+	float: left;
+}
+.main-page .md-right-page form .md-row {
+	margin-bottom: 15px;
+}
+.main-page .md-right-page form input{
+	width: 100%;
+	border: 1px solid #6a6a6a;
+	padding: 7px 10px;
+}
+.main-page .md-right-page form a{
+	border: 1px solid #6a6a6a;
+	padding: 7px 10px;
+	display: block;
+	color: rgba(0,0,0,.87);
+	margin-bottom: 15px;
+}
+.main-page .md-right-page form input[type="button"]{
+	width: 50%;
+	background: #262626;
+	color: #FFF;
+	font-family: "SFUFuturaHeavy";
+}
+
+@media screen and (min-width: 1600px){
+	.main-page .md-left-page .main-content .content p{
+		font-size: calc(1px + 0.5vw);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.main-page .md-left-page .md-title h4{
+		font-size: calc(5px + 2vw);
+	}
+	.main-page .md-left-page .main-content .content h6{
+		font-size: 15px;
+		padding: 0px 5px;
+	}
+	.main-page .md-left-page .main-content .content .text-2 h6{
+		padding: 0px 3px;
+	}
+	.main-page .md-left-page .main-content .content .text-3 h6{
+		padding: 0px 10px;
+	}
+	.main-page .md-left-page .main-content .content h6:before{
+		width: 3.5px;
+		height: 22px;
+	}
+	.main-page .md-left-page .main-content .content h6:after{
+		width: 3.5px;
+		height: 22px;
+	}
+	.main-page .md-left-page .main-content .content p{
+		font-size: calc(2px + 0.4vw);
+	}
+}
+.md-modal-fancybox{
+	padding: 0px;
+	border-radius: 10px;
+	position: relative;
+	display: none;
+}
+.md-modal-fancybox .left-popup{
+	float: left;
+	width: 35%;
+}
+.md-modal-fancybox .left-popup img{
+	width: 100%;
+}
+.md-modal-fancybox .right-popup{
+	float: left;
+	width: 65%;
+	text-align: center;
+	position: relative;
+	padding: 50px 0px;
+}
+.md-modal-fancybox .right-popup img{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.md-modal-fancybox .right-popup{
+	font-size: calc(3px + 1.4vw);
+	text-transform: uppercase;
+}
+.md-modal-fancybox .right-popup h3{
+	font-size: calc(5px + 1.4vw);
+}
+.md-modal-fancybox .right-popup a{
+	width: 60%;
+	background: #262626;
+	color: #FFF;
+	padding: 3px 30px;
+}
+.fancybox-slide--html .fancybox-close-small{
+	background: url(../images/ico-close-popup.png) no-repeat;
+	background-size: 100% 100%;
+	width: 12px;
+	height: 12px;
+	padding: 0px;
+	right: 10px;
+	top: 10px;
+}
+.fancybox-slide--html .fancybox-close-small svg{
+	display: none;
+}
+p.error{
+	color: rgba(201, 0, 3, 1);
+	font-size: 10px !important;
+	font-style: italic;
+	text-align: left;
+	font-family: "ElleFutura-Medium";
+	padding-top: 3px;
+}
+
+@media screen and (max-width: 767px){
+	.header .logo{
+		width: 30%;
+	}
+	.main-page .md-left-page{
+		float: none;
+		width: 100%;
+	}
+	.main-page .md-right-page{
+		float: none;
+		width: 100%;
+	}
+	.main-page .md-left-page .md-title p{
+		font-size: calc(5px + 2vw);
+	}
+	.main-page .md-left-page .md-title h4{
+		font-size: calc(10px + 4vw);
+		margin-bottom: 20px;
+	}
+	.main-page .md-left-page .main-content .content .text-1{
+		margin-bottom: 15px;
+	}
+	.main-page .md-left-page .md-ft p{
+		font-size: calc(3px + 1.5vw);
+	}
+	.main-page .md-left-page .main-content .content p{
+		font-size: calc(3px + 0.8vw);
+		margin-top: 0px;
+	}
+	.main-page .md-left-page .main-content{
+		width: 45%;
+	}
+	.main-page .md-left-page .main-img{
+		width: 55%;
+	}
+	.main-page .md-left-page .main-content .content h6{
+		font-size: 15px;
+	}
+	.main-page .md-left-page .main-content .content h6:before{
+		width: 3.5px;
+		height: 22px;
+	}
+	.main-page .md-left-page .main-content .content h6:after{
+		width: 3.5px;
+		height: 22px;
+	}
+	.main-page .md-left-page .main-content .content .text-3 h6{
+		padding: 0px 13px;
+	}
+	.main-page .md-right-page form{
+		width: 100%;
+	}
+	.main-page .md-right-page form h6{
+		font-size: calc(5px + 2.5vw);
+	}
+	.main-page .md-right-page form p{
+		font-size: calc(5px + 2vw);
+	}
+}
+@media screen and (max-width: 600px){
+	.md-modal-fancybox .right-popup{
+		padding: 20px 0px;
+	}
+}
+@media screen and (max-width: 450px){
+	.md-modal-fancybox .right-popup h3{
+		margin-bottom: 5px;
+	}
+	.md-modal-fancybox .right-popup img{
+		margin-bottom: 20px;
+	}
+}
