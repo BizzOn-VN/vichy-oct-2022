@@ -292,6 +292,7 @@ body{
 	padding: 0px;
 	right: 10px;
 	top: 10px;
+	z-index: 9999999999999;
 }
 .fancybox-slide--html .fancybox-close-small svg{
 	display: none;
@@ -357,26 +358,45 @@ p.error{
 	.main-page .md-right-page form{
 		width: 100%;
 	}
+	.main-page .md-right-page form input{
+		padding: 10px;
+	}
 	.main-page .md-right-page form h6{
 		font-size: calc(5px + 2.5vw);
 	}
 	.main-page .md-right-page form p{
 		font-size: calc(5px + 2vw);
 	}
-}
-@media screen and (max-width: 600px){
+	.main-page .md-right-page form .md-row .md-col-1{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.main-page .md-right-page form .md-row .md-col-2{
+		width: 100%;
+	}
+	.main-page .md-right-page form a{
+		width: 80%;
+		display: table;
+		margin: 0 auto 15px auto;
+	}
+	.md-modal-fancybox .left-popup{
+		display: none;
+	}
 	.md-modal-fancybox .right-popup{
-		padding: 20px 0px;
+		width: 100%;
+		padding: 50px 20px;
 	}
-}
-@media screen and (max-width: 450px){
 	.md-modal-fancybox .right-popup h3{
-		margin-bottom: 5px;
+		font-size: calc(5px + 2.5vw);
 	}
-	.md-modal-fancybox .right-popup img{
-		margin-bottom: 20px;
+	.md-modal-fancybox .right-popup p{
+		font-size: calc(5px + 2vw);
+	}
+	.md-modal-fancybox .right-popup a{
+		font-size: calc(5px + 2vw);
 	}
 }
+
 
 @media screen and (min-width: 1400px){
 	.main-page .md-left-page .md-title p{
