@@ -394,6 +394,7 @@ p.error{
 	}
 	.md-modal-fancybox .right-popup a{
 		font-size: calc(5px + 2vw);
+		padding: 5px 30px;
 	}
 }
 
