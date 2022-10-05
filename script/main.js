@@ -14,7 +14,8 @@ jQuery(document).ready(function ($) {
         var getplugin = function(){
 
             // $("#modal-sucess").fancybox({}).trigger('click'); 
-          $('#provn-1').on('click', function(e) {
+
+          $('#provn-2').on('click', function(e) {
                   $.fancybox.close();
           });
 

@@ -305,6 +305,37 @@ p.error{
 	font-family: "ElleFutura-Medium";
 	padding-top: 3px;
 }
+.md-modal-fancybox-1{
+	display: none;
+}
+.md-modal-fancybox-1 .top-content-1{
+	margin-bottom: 30px;
+}
+
+.md-modal-fancybox-1 .top-content p{
+	font-size: 18px;
+}
+.md-modal-fancybox-1 .top-content a{
+	color: #000;
+	text-decoration: underline;
+	font-size: 16px;
+}
+.md-modal-fancybox-1 .md-button-close{
+	position: static;
+	background: none;
+	padding: 10px 50px;
+	background: #000;
+	color: #FFF;
+	width: auto;
+	height: auto;
+	display: table;
+	margin: 20px auto 0 auto;
+	font-size: 16px;
+}
+.md-modal-fancybox-1 .md-title-popup{
+	text-align: center;
+	font-size: 20px;
+}
 
 @media screen and (max-width: 767px){
 	.header .logo{
@@ -395,6 +426,18 @@ p.error{
 	.md-modal-fancybox .right-popup a{
 		font-size: calc(7px + 2vw);
 		padding: 5px 30px;
+	}
+	.md-modal-fancybox-1 .top-content p{
+		font-size: 16px;
+	}
+	.md-modal-fancybox-1 .top-content a{
+		font-size: 14px;
+	}
+	.md-modal-fancybox-1 .md-title-popup{
+		font-size: 18px;
+	}
+	.md-modal-fancybox-1 .md-button-close{
+		font-size: 15px;
 	}
 }
 
