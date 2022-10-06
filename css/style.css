@@ -209,6 +209,9 @@ body{
 	font-size: calc(3px + 0.8vw);
 	margin-bottom: 5px;
 }
+.main-page .md-right-page form .md-address a{
+	font-size: calc(3px + 0.8vw);
+}
 .main-page .md-right-page form .md-address .left-add{
 	text-align: left;
 	width: 49%;
