@@ -206,11 +206,11 @@ body{
 	font-size: calc(5px + 1vw);
 }
 .main-page .md-right-page form .md-address p{
-	font-size: calc(3px + 0.8vw);
+	font-size: 14px;
 	margin-bottom: 5px;
 }
 .main-page .md-right-page form .md-address a{
-	font-size: calc(3px + 0.8vw);
+	font-size: 14px;
 }
 .main-page .md-right-page form .md-address .left-add{
 	text-align: left;
