@@ -201,11 +201,30 @@ body{
 	border: 1px solid #6a6a6a;
 	padding: 7px 10px;
 }
-.main-page .md-right-page form a{
-	border: 1px solid #6a6a6a;
-	padding: 7px 10px;
-	display: block;
-	color: rgba(0,0,0,.87);
+.main-page .md-right-page form .md-address .title-add{
+	margin-bottom: 15px;
+	font-size: calc(5px + 1vw);
+}
+.main-page .md-right-page form .md-address p{
+	font-size: calc(3px + 0.8vw);
+	margin-bottom: 5px;
+}
+.main-page .md-right-page form .md-address .left-add{
+	text-align: left;
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+}
+.main-page .md-right-page form .md-address .right-add{
+	text-align: left;
+	width: 49%;
+	float: left;
+}
+.main-page .md-right-page form .md-address a{
+	color: #000;
+	text-decoration: underline;
+}
+.main-page .md-right-page form .md-address {
 	margin-bottom: 15px;
 }
 .main-page .md-right-page form input[type="button"]{
@@ -336,6 +355,42 @@ p.error{
 	text-align: center;
 	font-size: 20px;
 }
+.md-dieukhoan{
+	display: none;
+	top: 7%;
+	width: 90%;
+	font-family: "ElleFutura-Medium";
+	max-width: 660px;
+	padding: 44px 30px 44px 44px;
+	height: 75%;
+	text-align: justify;
+}
+.md-dieukhoan .fancybox-close-small{
+	display: block !important;
+}
+.logo-popup{
+	width: 30%;
+    min-width: 200px;
+    display: table;
+    margin: 0 auto 20px auto;
+}
+.ui.checkbox label a{
+	color: #000;
+	text-decoration: underline;
+}
+.ui.checkbox{
+	margin-bottom: 10px;
+	text-align: left;
+	display: block;
+	font-size: 14px;
+}
+.md-note{
+	font-style: italic;
+	font-size: 14px !important;
+	margin-bottom: 15px !important;
+	text-align: left;
+	color: rgba(201, 0, 3, 1);
+}
 
 @media screen and (max-width: 767px){
 	.header .logo{
@@ -405,11 +460,6 @@ p.error{
 	.main-page .md-right-page form .md-row .md-col-2{
 		width: 100%;
 	}
-	.main-page .md-right-page form a{
-		width: 80%;
-		display: table;
-		margin: 0 auto 15px auto;
-	}
 	.md-modal-fancybox .left-popup{
 		display: none;
 	}
@@ -438,6 +488,24 @@ p.error{
 	}
 	.md-modal-fancybox-1 .md-button-close{
 		font-size: 15px;
+	}
+	.main-page .md-right-page form .md-address .title-add{
+		    font-size: calc(6px + 2vw);
+	}
+	.main-page .md-right-page form .md-address .left-add p{
+		    font-size: calc(5px + 2vw);
+	}
+	.main-page .md-right-page form .md-address .right-add p{
+		    font-size: calc(5px + 2vw);
+	}
+	.main-page .md-right-page form .md-address a{
+		font-size: calc(5px + 2vw);
+	}
+	.ui.checkbox{
+		font-size: calc(4px + 2vw);
+	}
+	.md-note{
+		font-size: calc(4px + 2vw) !important;
 	}
 }
 

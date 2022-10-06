@@ -15,10 +15,10 @@ jQuery(document).ready(function ($) {
 
             // $("#modal-sucess").fancybox({}).trigger('click'); 
 
-          $('#provn-2').on('click', function(e) {
+          $('#the-le').on('click', function(e) {
                   $.fancybox.close();
           });
-
+          $('.ui.checkbox').checkbox();
 
 
         }
